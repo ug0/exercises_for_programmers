@@ -1,4 +1,4 @@
-# Exercise 2. Printing Quotes
+# Exercise 3. Printing Quotes
 
 Quotation marks are often used to denote the start and end of a string.
 But sometimes we need to print out the quotation marks themselves by using escape characters.
