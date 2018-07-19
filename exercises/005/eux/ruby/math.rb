@@ -1,5 +1,5 @@
 def valid_number
-  until number = Float(gets.chomp) rescue false && number >= 0
+  until (number = Float(gets.chomp) rescue false) && number >= 0
     print "Must enter a positive number! "
   end
   number
