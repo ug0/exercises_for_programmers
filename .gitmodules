@@ -1,0 +1,3 @@
+[submodule "exercism/ug0/elixir"]
+	path = exercism/ug0/elixir
+	url = git@github.com:ug0/exercism-elixir.git
