@@ -9,7 +9,7 @@ def valid_answer(name)
   until ['yes', 'y', 'no', 'n'].include?(input = gets.chomp.downcase)
     print "Do you want a folder for #{name} "
   end
-  input == 'yes' || 'y'
+  input == 'yes' || input ==  'y'
 end
 
 print 'Site name: '
