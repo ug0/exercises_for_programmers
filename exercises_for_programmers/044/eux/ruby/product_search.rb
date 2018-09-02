@@ -1,6 +1,6 @@
 require "json"
 
-file = open('products.json').read
+file = File.read('products.json')
 PRODUCTS = JSON.parse(file)['products']
 
 def valid_input
@@ -11,7 +11,7 @@ def valid_input
 end
 
 def find(name)
-  PRODUCTS.find{ |product| product['name'] == name }
+  PRODUCTS.find{ |product| product['name'].downcase == name.downcase }
 end
 
 print 'What is the product name? '
