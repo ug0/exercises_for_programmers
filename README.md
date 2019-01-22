@@ -1,4 +1,4 @@
-# Exercises for Programmers
+# Programming Exercises
 
 ## [exercises_for_programmers](./exercises_for_programmers)
 
