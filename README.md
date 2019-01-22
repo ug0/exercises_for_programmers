@@ -8,3 +8,7 @@ Answers to exercises from the book [*Exercises for Programmers*](https://pragpro
 ## [exercism](./exercism)
 
 Exercises from [exercism.io](https://exercism.io)
+
+## [Advent of Code](./advent_of_code)
+
+Exercises from [Advent of Code](https://adventofcode.com/)
